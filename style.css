@@ -1,0 +1,70 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+header {
+    padding: 5px  ;
+    background-color: black;
+    color: aliceblue;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 10px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+li a {
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+header .container, 
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faixada img {
+    height: 300px;
+}
+
+.brands-list img{
+    height: 24px;
+
+}
+
+.brands-list li {
+    display: inline;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section{
+    padding: 24px 0;   
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+section img{
+    margin-right: 32px;
+}
